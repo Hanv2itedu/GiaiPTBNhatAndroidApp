@@ -6,4 +6,5 @@
     <color name="green">#2ECC71</color>
     <color name="gray">#aaa</color>
     <color name="red">#E74C3C</color>
+    <color name="black">#000</color>
 </resources>
