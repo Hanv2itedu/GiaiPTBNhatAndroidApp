@@ -13,12 +13,12 @@ import android.widget.EditText;
 import android.widget.TextView;
 import android.widget.Toast;
 
-public class ActivityPhuongTrinhBacNhat extends AppCompatActivity implements View.OnClickListener, View.OnKeyListener{
+public class ActivityPhuongTrinhBacNhat extends AppCompatActivity implements View.OnClickListener{
     int soA, soB, result;
     String sResult;
     EditText editSoA, editSoB;
     TextView txtResult;
-    Button btnResult, btnReset;
+    Button btnResult, btnReset, btnBack;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,13 +29,12 @@ public class ActivityPhuongTrinhBacNhat extends AppCompatActivity implements Vie
         txtResult = (TextView) findViewById(R.id.txtResult);
         btnResult = (Button) findViewById(R.id.btnResult);
         btnReset = (Button) findViewById(R.id.btnReset);
-        //bat su kien onKey cho editor text
-        // muc dich: khong cho xuong hang khi bam phim enter
-        editSoA.setOnKeyListener(this);
-        editSoB.setOnKeyListener(this);
+        btnBack = (Button) findViewById(R.id.btnBack);
+
         //bat su kien onclick cho buttons
         btnResult.setOnClickListener(this);
         btnReset.setOnClickListener(this);
+        btnBack.setOnClickListener(this);
     }
     @Override
     public void onClick(View v) {
@@ -49,6 +48,12 @@ public class ActivityPhuongTrinhBacNhat extends AppCompatActivity implements Vie
             case R.id.btnReset : //neu nhu click vao nut btnReset
                 resetAll(); // thuc hien ham resetAll,
                 break;
+            case R.id.btnBack : // neu nhu click vao btnBack
+                Intent newIntent = new Intent(this, MainActivity.class);
+                newIntent.putExtra("soA", sSoA);
+                newIntent.putExtra("soB", sSoB);
+                newIntent.putExtra("result", sResult);
+                startActivity(newIntent);
         }
     }
     public  void showResult(String sSoA, String sSoB){
@@ -98,24 +103,6 @@ public class ActivityPhuongTrinhBacNhat extends AppCompatActivity implements Vie
         }else{
             return (float) -b/a; // return kq
         }
-    }
-
-    @Override
-    public boolean onKey(View v, int keyCode, KeyEvent event) {
-        //neu nguoi dung bam phim enter thi khong lam gi
-        if(keyCode == KeyEvent.KEYCODE_ENTER){
-            return true;
-        }
-        if(keyCode == KeyEvent.KEYCODE_BACK){
-            Intent newIntent = new Intent(this, MainActivity.class);
-            newIntent.putExtra("soA", String.valueOf(soA));
-            newIntent.putExtra("soB", String.valueOf(soB));
-            newIntent.putExtra("result"," x = " + sResult);
-            startActivity(newIntent);
-            return true;
-        }
-        //mac dinh bat tat ca cac key khac voi enter
-        return super.onKeyDown(keyCode, event);
     }
 
 }

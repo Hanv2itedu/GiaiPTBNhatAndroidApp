@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
+ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
 MERGED from [com.android.support:design:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\55249d4b0bc3cb7c2c7b748f7b347197\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a6d77de7bb61c0a38f1e182641faace1\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support.constraint:constraint-layout:1.0.2] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.0.2.aar\b2ab2e9676cd2867e51be64c808f299e\AndroidManifest.xml:2:1-11:12
@@ -18,25 +18,25 @@ MERGED from [com.android.support:support-core-utils:26.1.0] C:\Users\Ha Nguyen\.
 MERGED from [com.android.support:support-core-ui:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.1.0.aar\28d0ee533723fb8497ed239f65b9ba08\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\support-compat-26.1.0.aar\5d5713d24a5766ef8c5d0d63cd677b0b\AndroidManifest.xml:17:1-31:12
 MERGED from [android.arch.lifecycle:runtime:1.0.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\runtime-1.0.0.aar\ead44fc0cf56412d9706a9e1e451316a\AndroidManifest.xml:17:1-30:12
-INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
-INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
+INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
+INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
 	package
 		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:3:5-40
 		INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml
 		INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml
-		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml
-		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-24:12
+		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:1-25:12
 		INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:5:5-22:19
+ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:5:5-23:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\55249d4b0bc3cb7c2c7b748f7b347197\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\design-26.1.0.aar\55249d4b0bc3cb7c2c7b748f7b347197\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:appcompat-v7:26.1.0] C:\Users\Ha Nguyen\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.1.0.aar\a6d77de7bb61c0a38f1e182641faace1\AndroidManifest.xml:25:5-29:19
@@ -94,9 +94,13 @@ ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:18:17-77
 	android:name
 		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:18:27-74
 activity#com.example.hanguyen.demo.ActivityPhuongTrinhBacNhat
-ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:21:9-73
+ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:21:9-64
 	android:name
 		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:21:19-61
+activity#com.example.hanguyen.demo.ActivityPTBHai
+ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:22:9-61
+	android:name
+		ADDED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml:22:19-49
 uses-sdk
 INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from F:\Android\WorkSpace\app\src\main\AndroidManifest.xml

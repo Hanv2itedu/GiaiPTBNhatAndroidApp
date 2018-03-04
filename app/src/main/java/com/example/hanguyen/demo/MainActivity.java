@@ -27,11 +27,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
 
-        Intent intent = getIntent();
+        Intent intent = null;
+        intent = getIntent();
         if(intent != null){
             Toast.makeText(MainActivity.this,
                     "Last item you did is " + intent.getStringExtra("soA") + "x + " +
-                    intent.getStringExtra("soB") + "= 0" + intent.getStringExtra("result"),
+                    intent.getStringExtra("soB") + "= 0 kết quả :" + intent.getStringExtra("result"),
                     Toast.LENGTH_LONG).show();
         }
 
@@ -39,18 +40,23 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
         btnPTB2 = (Button) findViewById(R.id.btnPTB2);
 
         btnPTB1.setOnClickListener(this);
+        btnPTB2.setOnClickListener(this);
+
     }
 
     @Override
     public void onClick(View v) {       
         switch (v.getId()){
             case R.id.btnPTB1 : //neu nhu click vao nut btnPTB1
-                Intent newIntent = new Intent(MainActivity.this, ActivityPhuongTrinhBacNhat.class);
-                startActivity(newIntent);
+                Intent intentPTB1 = new Intent(MainActivity.this, ActivityPhuongTrinhBacNhat.class);
+                startActivity(intentPTB1);
                 break;
             case R.id.btnPTB2 : //neu nhu click vao nut btnPTB2
+                Intent intentPTB2 = new Intent(MainActivity.this, ActivityPTBHai.class);
+                startActivity(intentPTB2);
                 break;
         }
     }
+
 
 }

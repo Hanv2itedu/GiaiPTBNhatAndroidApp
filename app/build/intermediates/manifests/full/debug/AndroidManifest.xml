@@ -27,6 +27,7 @@
             </intent-filter>
         </activity>
         <activity android:name="com.example.hanguyen.demo.ActivityPhuongTrinhBacNhat" />
+        <activity android:name="com.example.hanguyen.demo.ActivityPTBHai" />
 
         <meta-data
             android:name="android.support.VERSION"

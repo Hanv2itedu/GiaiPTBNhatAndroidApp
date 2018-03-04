@@ -1492,6 +1492,10 @@
         "source": "C:\\Users\\Ha Nguyen\\.gradle\\caches\\transforms-1\\files-1.1\\design-26.1.0.aar\\55249d4b0bc3cb7c2c7b748f7b347197\\res\\drawable\\design_password_eye.xml"
     },
     {
+        "merged": "F:\\Android\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\layout_activity_ptbhai.xml.flat",
+        "source": "F:\\Android\\WorkSpace\\app\\src\\main\\res\\layout\\activity_ptbhai.xml"
+    },
+    {
         "merged": "F:\\Android\\WorkSpace\\app\\build\\intermediates\\res\\merged\\debug\\color_switch_thumb_material_light.xml.flat",
         "source": "C:\\Users\\Ha Nguyen\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-26.1.0.aar\\a6d77de7bb61c0a38f1e182641faace1\\res\\color\\switch_thumb_material_light.xml"
     },
